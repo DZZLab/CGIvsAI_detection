@@ -180,7 +180,8 @@ def main():
         test_labels_path=test_labels_path
     )
 
-    video_data_module.setup(stage='test')
+    #stage='train' or stage='test'
+    video_data_module.setup(stage='train')
 
     checkpoint_dir = './Checkpoints/'
     #Checkpoint name to resume from. [Must include '.ckpt' at end]training 
@@ -202,7 +203,7 @@ def main():
     model = CNN3D(input_shape=input_shape)
 
     trainer = Trainer(
-        max_epochs=1033, accelerator='auto', devices=1, precision='16-mixed',
+        max_epochs=100, accelerator='auto', devices=1, precision='16-mixed',
         callbacks=[checkpoint_callback], logger=True
     )
 
