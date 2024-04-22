@@ -1,0 +1,1 @@
+# CGIvsAI_detection
