@@ -1,4 +1,3 @@
-#CGIvsAI_detection
 This my project created for the primary goal to learn basic use of PyTorch and its subsidiary libraries.
 This CGI vs AI classifier utilizes a 3D Convolutional Neural Network to classify whether a chosen video was created with CGI or if it was AI-generated.
 
