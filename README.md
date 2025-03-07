@@ -1,3 +1,4 @@
+# Intro
 This my project created for the primary goal to learn basic use of PyTorch and its subsidiary libraries.
 This CGI vs AI classifier utilizes a 3D Convolutional Neural Network to classify whether a chosen video was created with CGI or if it was AI-generated.
 
@@ -5,11 +6,12 @@ I trained with all available Sora AI clips, animated CGI clips, and movie clips 
 My dataset and checkpoints are NOT currently in this Git Repo, as including those would have made the size of this repository over 60GB. 
 My dataset and checkpoints will be available at this Sharepoint link: https://pitt-my.sharepoint.com/:f:/g/personal/dzz4_pitt_edu/Eouggte1C9hPqbyBzQnLHP4BXj2JDiOzND6XwjOPq-kX0Q?e=jXHMTm
 
-Results: 
+# Results 
     My results are not representative of the peak capabilities of this model. I don't have a good source for creating a dataset - therefore I have to manually clip and classify videos - nor do I have the necessary 
     hardware to train at a reasonable speed. After 1019 epochs [training loops], I achieved a 75% testing accuracy on unseen data, which is a 15% increase after 473 epochs from the last testing session at 546 epochs. I believe this is a great success considering I haven't trained the model to its full potential, as by the time I stopped, the loss value was still dropping per epoch - meaning that it was still traversing towards a minimum value on the gradient descent.
 
-To-do: Apply PCA dimensionality-reduction and expand training dataset.
+# To-do 
+Apply PCA dimensionality-reduction and expand training dataset.
 
 Usage:
     
