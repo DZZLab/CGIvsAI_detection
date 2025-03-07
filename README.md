@@ -9,6 +9,8 @@ Results:
     My results are not representative of the peak capabilities of this model. I don't have a good source for creating a dataset - therefore I have to manually clip and classify videos - nor do I have the necessary 
     hardware to train at a reasonable speed. After 1019 epochs [training loops], I achieved a 75% testing accuracy on unseen data, which is a 15% increase after 473 epochs from the last testing session at 546 epochs. I believe this is a great success considering I haven't trained the model to its full potential, as by the time I stopped, the loss value was still dropping per epoch - meaning that it was still traversing towards a minimum value on the gradient descent.
 
+To-do: Apply PCA dimensionality-reduction and expand training dataset.
+
 Usage:
     
     [1]: Place your own training data, or my training dataset into the 'data' directory. The c0 folder should hold AI-generated videos and c1 for CGI. 
